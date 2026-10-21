@@ -1,17 +1,27 @@
-# Plain Craft Launcher
+# Plain Craft Launcher (PCL) NoRestriction 修改版
 
-[![Stars](https://img.shields.io/github/stars/Meloong-Git/PCL?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=Stars&labelColor=444444&color=eac54f)](https://github.com/Meloong-Git/PCL/)
-[![Issues](https://img.shields.io/github/issues/Meloong-Git/PCL?style=flat&label=Issues&labelColor=444444&color=1F883D)](https://github.com/Meloong-Git/PCL/issues)
-[![哔哩哔哩](https://img.shields.io/badge/动态-BiliBili-00A4DB?style=flat&labelColor=444444&logoSize=auto)](https://space.bilibili.com/11343203/dynamic)
-[![爱发电](https://img.shields.io/badge/赞助-爱发电-946ce6?style=flat&labelColor=444444&logoSize=auto)](https://meloong.com/afd/a/LTCat)
+> 本项目是第三方基于龙腾猫跃的 **Plain Craft Launcher (PCL)** 独立二次创作的产物，非 PCL 官方版本，与官方无隶属、合作或背书关系。
 
-包含 PCL 的大部分源代码，包括 UI 库、动画模块、下载模块、Minecraft 启动模块等！<br/>
-代码并不是实时更新的，它会在每次 PCL 发布更新时同步一次。<br/>
-非常感谢社区的大力支持！
+- 原作者：龙腾猫跃
+- 原作者赞助链接：[https://afdian.com/a/LTCat]
+- 本修改版维护者：TangibleDreams
+- 本修改版源代码：[https://github.com/TangibleDreams913/PCL_NoRestrictions/]
+- 修改说明：基于 PCL 修改，仅将 `RestrictMcDownload` 的默认值调整为 `false`，以恢复被该开关限制的 Minecraft 下载入口；未修改正版验证、正版购买劝导或赞助劝导逻辑，`McLaunchPrecheck` 仍保留并执行。
 
-<br/>
+本项目继续适用并保留以下文件：
 
-### 相关资源
-- [PCL 下载](https://meloong.com/pcl)：下载可免费使用的正式版 PCL！
-- [PCL 功能投票](https://github.com/Meloong-Git/PCL/discussions/2)：来参加投票吧，开发者会优先处理票数较高的项目！
-- [帮助文档库](https://github.com/LTCatt/PCL2Help)：PCL 内置帮助文档的存储库
+- 《PCL 分发有限许可》
+- 《PCL 存储库合理使用指南》
+
+合规说明：
+
+- 本软件是第三方基于 PCL 独立二次创作的产物，已明确区别于官方版本。
+- 软件内“关于”页面首位已展示龙腾猫跃署名及对应赞助链接。
+- 本软件名称以 `Plain Craft Launcher (PCL)` 开头，并带有表明第三方修改的后缀。
+- 本软件源代码已公开。
+- 本软件继续适用《PCL 存储库合理使用指南》，并保留该指南文件。
+- 本软件在 Windows 上运行时，界面主要色相为蓝色，不包含与 PCL 赞助解锁功能类似的功能或表现。
+- 本软件包含 Minecraft 启动功能，保留与 `McLaunchPrecheck` 一致或更激进的正版购买劝导与赞助劝导，不提供绕过正版购买/验证的功能。
+- 本修改版不提供服务器充值、交易相关的功能或引导；使用者应自行判断并承担使用风险。
+
+本 README 仅用于说明项目信息，不构成法律意见。
